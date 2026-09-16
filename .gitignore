@@ -1,1 +1,17 @@
+# macOS
 .DS_Store
+
+# Xcode
+xcuserdata/
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Build products
+*.ipa
+*.dSYM.zip
+*.dSYM
