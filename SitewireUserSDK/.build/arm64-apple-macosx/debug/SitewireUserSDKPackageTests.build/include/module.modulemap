@@ -1,0 +1,3 @@
+module SitewireUserSDKPackageTests {
+    header "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/include/SitewireUserSDKPackageTests-Swift.h"
+}

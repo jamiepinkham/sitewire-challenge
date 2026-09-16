@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/master.swiftdeps"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.dia"
+  }
+}

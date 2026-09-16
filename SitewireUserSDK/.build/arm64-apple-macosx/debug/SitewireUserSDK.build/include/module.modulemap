@@ -1,0 +1,3 @@
+module SitewireUserSDK {
+    header "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/include/SitewireUserSDK-Swift.h"
+}

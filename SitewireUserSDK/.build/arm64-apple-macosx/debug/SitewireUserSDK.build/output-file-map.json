@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/master.swiftdeps"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/APIError.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/LiveUsersAPIClient.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/LoginHistory.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/User.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/LiveUserService.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/UserServiceProtocol.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.dia"
+  },
+  "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/SitewireUserSDK.swift": {
+    "dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.d",
+    "object": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.swift.o",
+    "swiftmodule": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK~partial.swiftmodule",
+    "swift-dependencies": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.swiftdeps",
+    "diagnostics": "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.dia"
+  }
+}

@@ -1,0 +1,764 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.xctest/Contents/MacOS/SitewireUserSDKPackageTests",
+      "packagePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK",
+      "productName" : "SitewireUserSDKPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SitewireUserSDK-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/sources",
+      "importPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/LiveUsersAPIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/LoginHistory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/LiveUserService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/UserServiceProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/SitewireUserSDK.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SitewireUserSDK",
+      "moduleOutputPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDK.swiftmodule",
+      "objects" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/include/SitewireUserSDK-Swift.h",
+        "-swift-version",
+        "6",
+        "-enable-upcoming-feature",
+        "StrictConcurrency",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sitewireusersdk"
+      ],
+      "outputFileMapPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/APIError.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/LiveUsersAPIClient.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/LoginHistory.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/User.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/LiveUserService.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/UserServiceProtocol.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/SitewireUserSDK.swift"
+      ],
+      "tempsPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SitewireUserSDKPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/sources",
+      "importPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDKTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SitewireUserSDKPackageTests",
+      "moduleOutputPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDKPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/include/SitewireUserSDKPackageTests-Swift.h",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sitewireusersdk"
+      ],
+      "outputFileMapPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDKPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SitewireUserSDKTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/sources",
+      "importPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/APIErrorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUserServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUsersAPIClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/MockURLSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/ModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDK.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SitewireUserSDKTests",
+      "moduleOutputPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDKTests.swiftmodule",
+      "objects" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/APIErrorTests.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUserServiceTests.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUsersAPIClientTests.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/MockURLSession.swift.o",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/ModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-enable-upcoming-feature",
+        "StrictConcurrency",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sitewireusersdk"
+      ],
+      "outputFileMapPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/APIErrorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUserServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUsersAPIClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/MockURLSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/ModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules/SitewireUserSDKTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/APIErrorTests.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUserServiceTests.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUsersAPIClientTests.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/MockURLSession.swift",
+        "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/ModelTests.swift"
+      ],
+      "tempsPath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SitewireUserSDK" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SitewireUserSDK",
+      "-package-name",
+      "sitewireusersdk",
+      "-c",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/APIError.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/LiveUsersAPIClient.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/LoginHistory.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/User.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/LiveUserService.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/UserServiceProtocol.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/SitewireUserSDK.swift",
+      "-I",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/include/SitewireUserSDK-Swift.h",
+      "-swift-version",
+      "6",
+      "-enable-upcoming-feature",
+      "StrictConcurrency",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sitewireusersdk",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "SitewireUserSDKPackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SitewireUserSDKPackageTests",
+      "-package-name",
+      "sitewireusersdk",
+      "-c",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/include/SitewireUserSDKPackageTests-Swift.h",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sitewireusersdk",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "SitewireUserSDKTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SitewireUserSDKTests",
+      "-package-name",
+      "sitewireusersdk",
+      "-c",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/APIErrorTests.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUserServiceTests.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUsersAPIClientTests.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/MockURLSession.swift",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/ModelTests.swift",
+      "-I",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-enable-upcoming-feature",
+      "StrictConcurrency",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sitewireusersdk",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SitewireUserSDK" : [
+
+    ],
+    "SitewireUserSDKPackageTests" : [
+      "SitewireUserSDKTests",
+      "SitewireUserSDK"
+    ],
+    "SitewireUserSDKTests" : [
+      "SitewireUserSDK"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/API/LiveUsersAPIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/LoginHistory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Models/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/LiveUserService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/Service/UserServiceProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Sources/SitewireUserSDK/SitewireUserSDK.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/sources"
+    },
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/sources"
+    },
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUserService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LiveUsersAPIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/LoginHistory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/SitewireUserSDK.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDK.build/UserServiceProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/APIErrorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUserServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/LiveUsersAPIClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/MockURLSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/ModelTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/APIErrorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUserServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/LiveUsersAPIClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/MockURLSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/Tests/SitewireUserSDKTests/ModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/SitewireUserSDKTests.build/sources"
+    },
+    "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/jp/dev/sitewire-challenge/SitewireUserSDK/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
