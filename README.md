@@ -73,24 +73,6 @@ cd SitewireUserSDK
 swift test
 ```
 
-## Project structure
-
-SitewireChallenge/
-├── SitewireChallenge/
-│   ├── App/                    # Application entry point
-│   ├── Features/UserList/      # TCA feature and SwiftUI views
-│   ├── Presentation/          # App-facing view models
-│   ├── Stores/                # SDK-to-app adapter and mock data
-│   └── Utilities/             # Shared app utilities
-├── SitewireChallengeTests/    # App feature tests
-└── SitewireUserSDK/
-    ├── Sources/
-    │   └── SitewireUserSDK/
-    │       ├── Models/         # Public API models
-    │       ├── API/            # Network client
-    │       └── Service/        # Service protocol and implementation
-    └── Tests/                  # SDK tests
-
 ## Logging
 
 The app uses Apple's unified logging system. In Console.app, filter by:
